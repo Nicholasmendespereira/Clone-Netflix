@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Cinzel:wght@800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* inicio header */
+.video {
+    margin: auto;
+    width: 100%;
+    background-image: url(../imagens/home-video/cozinheira-de-castamar.jpg);
+    height: 700px;
+}
+header {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgba(16, 14, 14, 0) );
+}
+.logo img {
+    position: relative;
+    bottom: 10px;
+    right:40px;
+}
+.lista {
+    position: relative;
+    right: 220px;
+}
+.lista li {
+    display: inline-block;
+    font-size: 25px;
+    color: #939291;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.perfil-notifition {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+#search {
+    height: 20px;
+    position: relative;
+    top:30px;
+    left: 250px;
+}
+#icon-notification  {
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+#icon-perfil {
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+/* fim header */
+/* ------------------------------------------------------------------- */
+
+/* inicio main */
+main {
+    background-image:linear-gradient(to bottom, #141414f6 , #141414, #141414 );
+    height: 100vh;
+}
+.Continuar-assistindo-como-Geralt-de-Rivia {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #939291;
+    position: relative;
+    top: 140px;
+    left: 100px;
+
+}
+.continuar-assistindo {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.minha-lista {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #939291;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.minha-lista-lista-02 {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.series-de-ficção {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #939291;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.series-ficção {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+/* fim do main */
+/* --------------------------------------------------------------------- */
